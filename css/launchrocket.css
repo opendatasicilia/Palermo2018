@@ -149,3 +149,7 @@ h1.titolo {
 h2 {
 	font-size:3em;
 }
+
+mark {
+	background:white;
+}
