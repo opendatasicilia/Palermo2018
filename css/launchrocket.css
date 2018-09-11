@@ -133,23 +133,3 @@ hr.social:after {
 	height: 30px;
 	line-height: 2;
 }
-
-/* custom nelson */
-
-
-.teaser p {
-	font-size: 1.5em
-}
-
-h1.titolo {
-	font-weight:600;
-	letter-spacing:-4px
-}
-
-h2 {
-	font-size:3em;
-}
-
-mark {
-	background:white;
-}

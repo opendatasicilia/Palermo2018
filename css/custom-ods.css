@@ -1,0 +1,35 @@
+/* custom nelson */
+
+.teaser {
+	width:70%;
+}
+.teaser p {
+	font-size: 1.5em;
+}
+
+h1.titolo {
+	font-weight:600;
+	letter-spacing:-4px;
+	font-size:6rem;
+}
+
+h1.logo {
+	font-size:2rem;
+}
+
+h2 {
+	font-size:3em;
+}
+
+mark {
+	background:white;
+}
+
+div.intro {
+	width:70%;
+	margin:auto;
+}
+
+div.intro p {
+	text-align:left;
+}
