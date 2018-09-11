@@ -16,7 +16,7 @@ h1.titolo {
 	font-size:6rem;
 }
 
-@media only screen and (max-width: 640px)  {h1.titolo {font-size:6rem;}}
+@media only screen and (max-width: 640px)  {h1.titolo {font-size:5.5rem;}}
 
 h1.logo {
 	font-size:2rem;
