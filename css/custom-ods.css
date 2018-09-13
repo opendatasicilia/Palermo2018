@@ -3,15 +3,20 @@
 .teaser {
 	width:70%;
 }
+@media only screen and (max-width: 640px)  {.teaser {width:90%;}}
 .teaser p {
 	font-size: 1.5em;
 }
+
+@media only screen and (max-width: 640px)  {.teaser p {font-size: 1.35em;}}
 
 h1.titolo {
 	font-weight:600;
 	letter-spacing:-4px;
 	font-size:6rem;
 }
+
+@media only screen and (max-width: 640px)  {h1.titolo {font-size:5.5rem;}}
 
 h1.logo {
 	font-size:2rem;
@@ -33,3 +38,4 @@ div.intro {
 div.intro p {
 	text-align:left;
 }
+
