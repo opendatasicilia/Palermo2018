@@ -39,3 +39,19 @@ div.intro p {
 	text-align:left;
 }
 
+body #information {
+	color:black;
+}
+
+#intro {
+		position: relative;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		background: url(../img/bg.jpg) no-repeat;
+		background-size: cover;
+}
