@@ -71,3 +71,9 @@ body #information {
 .bg-warning {
     padding: 15px;
 }
+
+div.social a {
+	color:#428bca;
+	font-size:2rem;
+	text-decoration: none;
+}
