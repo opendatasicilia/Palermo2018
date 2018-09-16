@@ -20,8 +20,8 @@ Repo del raduno di Opendatasicilia del 9-10 novembre 2018 a Palermo:
 
 La partecipazione è **gratuita** ma è **obbligatorio registrarsi**:
 
-- qui al [**convegno** del **9 novembre**](https://www.eventbrite.com/e/linked-opendata-sicilia-convegno-tickets-50298502174);
-- qui all'[**hackathon** del **10 novembre**](https://www.eventbrite.com/e/linked-opendata-sicilia-hackathon-tickets-50300426931)
+- qui al [**convegno** del **9 novembre**](https://www.eventbrite.it/e/biglietti-linked-opendata-sicilia-convegno-50336635231);
+- qui all'[**hackathon** del **10 novembre**](https://www.eventbrite.it/e/biglietti-linked-opendata-sicilia-hackathon-50337107644)
 
 # Struttura repo
 
