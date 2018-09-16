@@ -1,0 +1,79 @@
+/* custom nelson */
+
+.teaser {
+	width:70%;
+}
+@media only screen and (max-width: 640px)  {.teaser {width:90%;}}
+.teaser p {
+	font-size: 1.5em;
+}
+
+@media only screen and (max-width: 640px)  {.teaser p {font-size: 1.35em;}}
+
+h1.titolo {
+	font-weight:600;
+	letter-spacing:-4px;
+	font-size:6rem;
+}
+
+@media only screen and (max-width: 640px)  {h1.titolo {font-size:5.5rem;}}
+
+h1.logo {
+	font-size:2rem;
+}
+
+h2 {
+	font-size:3em;
+}
+
+mark {
+	background:white;
+}
+
+div.intro {
+	width:70%;
+	margin:auto;
+}
+
+div.intro p {
+	text-align:left;
+}
+
+body #information {
+	color:black;
+	text-align: left;
+}
+
+#intro {
+		position: relative;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+/*		z-index: -100;*/
+		background: url(../img/bg.jpg) no-repeat;
+		background-size: cover;
+}
+
+
+#intro h3{
+	font-weight:400;
+	font-size:28px;
+}
+
+.jumbotron {
+	background-color: #d9edf7;
+	min-height:576px;
+}
+
+.bg-warning {
+    padding: 15px;
+}
+
+div.social a {
+	color:#428bca;
+	font-size:2rem;
+	text-decoration: none;
+}
