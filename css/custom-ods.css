@@ -73,7 +73,13 @@ body #information {
 }
 
 div.social a {
-	color:#428bca;
+	color:#efe23d;
+	font-size:2rem;
+	text-decoration: none;
+}
+
+div.jumbotron div.social a {
+	color:#3276B1;
 	font-size:2rem;
 	text-decoration: none;
 }
