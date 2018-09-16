@@ -18,7 +18,7 @@ Repo del raduno di Opendatasicilia del 9-10 novembre 2018 a Palermo
 
 È il branch che fa da **source** al **sito web** e non è in relazione con il master.
 
-Chi lavora sul sito quindi farà modifiche, o _pull request_ o nuovi brach di sviluppo a partire da `gh-pages`-
+Chi lavora sul sito quindi farà modifiche, o _pull request_ o nuovi brach di sviluppo a partire da **`gh-pages`**.
 
 ## brach master
 
