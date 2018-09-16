@@ -62,3 +62,12 @@ body #information {
 	font-weight:400;
 	font-size:28px;
 }
+
+.jumbotron {
+	background-color: #d9edf7;
+	min-height:576px;
+}
+
+.bg-warning {
+    padding: 15px;
+}
