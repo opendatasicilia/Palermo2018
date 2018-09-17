@@ -16,7 +16,7 @@ h1.titolo {
 	font-size:6rem;
 }
 
-@media only screen and (max-width: 640px)  {h1.titolo {font-size:5.5rem;}}
+@media only screen and (max-width: 640px)  {h1.titolo {font-size:4.5rem;}}
 
 h1.logo {
 	font-size:2rem;
@@ -25,6 +25,8 @@ h1.logo {
 h2 {
 	font-size:3em;
 }
+
+@media only screen and (max-width: 640px)  {h2{font-size:2.5rem;}}
 
 @media only screen and (max-width: 640px)  {h4 {font-size:14px;}}
 
@@ -62,12 +64,15 @@ body #information {
 		background-position:center;
 }
 
-@media only screen and (max-width: 640px)  {#intro { background: url(../img/bg_mobile.jpg) no-repeat;}}
+@media only screen and (max-width: 640px)  {#intro { background: url(../img/bg_mobile_01.jpg) no-repeat;}}
 
 #intro h3{
 	font-weight:400;
 	font-size:28px;
 }
+
+@media only screen and (max-width: 640px)  {#intro h3 { font-size:25px;}}
+
 
 .jumbotron {
 	background-color: #d9edf7;
