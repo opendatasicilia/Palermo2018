@@ -101,3 +101,15 @@ div.jumbotron div.social a {
 	margin-top: -20px;
 	visibility: hidden;
   }
+
+	/* loghi partners */
+
+	ul.loghi-partners li {
+	list-style:none;
+	display:inline-block;
+	margin:1rem;
+}
+
+ul.loghi-partners li img {
+max-height:50px;
+}
