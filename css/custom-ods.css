@@ -113,3 +113,5 @@ div.jumbotron div.social a {
 ul.loghi-partners li img {
 max-height:50px;
 }
+
+hr.gb {background-color: #fff; border: 3px solid #fff; border-radius: 7px 7px 7px 7px; height: 3px;}
