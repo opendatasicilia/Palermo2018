@@ -3,9 +3,9 @@
 .teaser {
 	width:70%;
 }
-@media only screen and (max-width: 640px)  {.teaser {width:94%;}}
+@media only screen and (max-width: 640px)  {.teaser {width:96%;}}
 .teaser p {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 @media only screen and (max-width: 640px)  {.teaser p {font-size: 1.35em;}}
@@ -16,7 +16,7 @@ h1.titolo {
 	font-size:6rem;
 }
 
-@media only screen and (max-width: 640px)  {h1.titolo {font-size:4.5rem;}}
+@media only screen and (max-width: 640px)  {h1.titolo {font-size:4.3rem;}}
 
 h1.logo {
 	font-size:2rem;
@@ -26,9 +26,9 @@ h2 {
 	font-size:3em;
 }
 
-@media only screen and (max-width: 640px)  {h2{font-size:2.5rem;}}
+@media only screen and (max-width: 640px)  {h2{font-size:2.4rem;}}
 
-@media only screen and (max-width: 640px)  {h4 {font-size:14px;}}
+@media only screen and (max-width: 640px)  {h4 {font-size:13px;}}
 
 
 mark {
@@ -71,7 +71,7 @@ body #information {
 	font-size:28px;
 }
 
-@media only screen and (max-width: 640px)  {#intro h3 { font-size:25px;}}
+@media only screen and (max-width: 640px)  {#intro h3 { font-size:22px;}}
 
 
 .jumbotron {
@@ -88,6 +88,8 @@ div.social a {
 	font-size:2rem;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 640px)  {div.social a { font-size:1.4rem;;}}
 
 div.jumbotron div.social a {
 	color:#3276B1;
