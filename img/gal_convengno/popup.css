@@ -92,7 +92,6 @@ h1 {
   }
 }
 
-.iframe{ overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:690px;width:100%;position:absolute;top:75px;left:0px;right:0px;bottom:0px" height="100%" width="100%} @media screen and (max-width: 700px){
-  .iframe{
-    height:300px;
-  }
+.iframe{ overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:700px;width:100%;position:absolute;top:75px;left:0px;right:0px;bottom:0px" height="100%" width="100%} 
+
+@media screen and (max-width: 700px){.iframe{   height:310px;  }}
