@@ -53,7 +53,7 @@ h1 {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 60%;
+  width: 70%;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -77,14 +77,14 @@ h1 {
 	color: #FF0000;
 }
 .popup .contentp {
-	max-height: 30%;
+	max-height: 70%;
 	overflow: auto;
 	text-align: justify;
 }
 
 @media screen and (max-width: 700px){
   .box{
-    width: 70%;
+    width: 80%;
   }
   .popup{
     
@@ -92,17 +92,7 @@ h1 {
   }
 }
 
-.jRCarouselGallery,.jRCarouselGallery1,.jRCarouselGallery2 {
-	margin: 0 auto; /* optional - if want to center align */
-}
-
-.galcontainer {
-	text-align: center;
-}
-
-.galcontainer {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
+.iframe{ overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:690px;width:100%;position:absolute;top:75px;left:0px;right:0px;bottom:0px" height="100%" width="100%} @media screen and (max-width: 700px){
+  .iframe{
+    height:300px;
+  }

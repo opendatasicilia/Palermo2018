@@ -17,6 +17,7 @@
     <meta property="og:locale" content="it_IT" />
     <meta property="og:site_name" content="OpenDataSicilia" />
 
+
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700|Pacifico' rel='stylesheet' type='text/css'>
     <!-- Bootstrap Core CSS -->
@@ -27,12 +28,6 @@
     <!-- Custom Theme CSS -->
     <link href="css/launchrocket.css" rel="stylesheet">
     <link href="css/custom-ods.css" rel="stylesheet">
-    
-     <!--  inzio galleria foto -->
-    <link href="img/gal_convengno/popup.css" rel="stylesheet" type="text/css" />
- 
-<script type="text/javascript" src="https://cdn.rawgit.com/vinayakjadhav/jRCarousel/master/dist/jRCarousel.min.js"></script>
-    <!-- fine galleria foto -->
     
 <script type="application/ld+json">
 {
@@ -176,9 +171,8 @@
         Davide Taibi, Ricercatore CNR<br>
          Giovanni Pirrotta, Universitá di Messina<br><br>
          <strong>Streaming convegno Palazzo dei Normanni a cura di <a href="http://www.forumpa.it/" title="forumpa.it" target="_blank">FORUM PA</a></strong><br> 
-        Link <a href="https://www.youtube.com/watch?v=tTAiD4eTDyw&feature=youtu.be" title="Streaming convegno Palazzo dei Normanni a cura di FORUM PA" target="_blank">YouTube</a>
-        </p>
-      </div>
+        Link <a href="https://www.youtube.com/watch?v=tTAiD4eTDyw&feature=youtu.be" title="Streaming convegno Palazzo dei Normanni a cura di FORUM PA" target="_blank">YouTube</a> </p>
+         </div>
     </div>
         <hr class="launchrocket social">
         <div class="row">
@@ -548,10 +542,6 @@ Vi segnaliamo che a Palermo è in vigore l'<a href="https://www.comune.palermo.i
 <div class="footer">
 <!-- <hr class="launchrocket social"> -->
 <br>
-     <p><strong>Gallerie foto</strong>
-  <ul class="loghi-partners">
-           <li><a href="#galleria" title="Galleria Convengno"><img src="img/partners/gal_con.png"></a></li>
-    </ul><p>
      <p><strong>Media Partners</strong>
   <ul class="loghi-partners">
            <li><a href="http://www.forumpa.it/" target="_blank" title="Forum PA"><img src="img/partners/fpa_digital360.png"></a></li>
@@ -577,7 +567,7 @@ Vi segnaliamo che a Palermo è in vigore l'<a href="https://www.comune.palermo.i
 
           <p><strong>Con il patrocinio:</strong>
             <ul class="">
-                <li><a href="http://www.odgsicilia.it/"  title="Ordine dei Giornalisti della Sicilia" target="_blank"><img src="img/logo_ODG1.png"></a><a href="index.html">index</a></li>
+                <li><a href="http://www.odgsicilia.it/"  title="Ordine dei Giornalisti della Sicilia" target="_blank"><img src="img/logo_ODG1.png"></a></li>
             </ul>
           <p>
 
@@ -585,72 +575,6 @@ Vi segnaliamo che a Palermo è in vigore l'<a href="https://www.comune.palermo.i
     <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
-      <!-- codice Galleria foto convegno -->
-  <script type="text/javascript">
-   $(document).ready(function(){
-	//var slides = ['images/020.jpg','images/01.jpg','images/02.jpg','images/03.jpg','images/04.jpg']
-	var slides = [{src: 'img/gal_convengno/conv_01.jpg'},
-				  {src: 'img/gal_convengno/conv_02.jpg'},
-				  {src: 'img/gal_convengno/conv_03.jpg'},
-				  {src: 'img/gal_convengno/conv_04.jpg'},
-				  {src: 'img/gal_convengno/conv_05.jpg'},
-				  {src: 'img/gal_convengno/conv_06.jpg'},
-				  {src: 'img/gal_convengno/conv_07.jpg'},
-				  {src: 'img/gal_convengno/conv_08.jpg'},
-				  {src: 'img/gal_convengno/conv_09.jpg'},
-				  {src: 'img/gal_convengno/conv_10.jpg'},
-				  {src: 'img/gal_convengno/conv_11.jpg'},
-				  {src: 'img/gal_convengno/conv_12.jpg'},
-				  {src: 'img/gal_convengno/conv_13.jpg'},
-				  {src: 'img/gal_convengno/conv_14.jpg'},
-				  {src: 'img/gal_convengno/conv_15.jpg'},
-			  	  {src: 'img/gal_convengno/conv_16.jpg'}];
-	
-	$('.jRCarouselGallery').jRCarousel({
-		  slides: slides
-	});
-	
- 	$('.jRCarouselGallery1').jRCarousel({
- 		  width: 800, 				/* largest allowed width */
-		  height: 640, 				/* largest allowed height */
-		  slides: slides, 			/* array of images source or gets slides by 'slide' class */
-		  slideLayout : 'contain',  /* "contain" (fit according to aspect ratio), "fill" (stretches object to fill) and "cover" (overflows box but maintains ratio) */
-		  animation: 'fade', 		/* slide | scroll | fade | zoomInSlide | zoomInScroll */
-		  animationSpeed: 400,
-		  animationInterval: 4000,
-		  autoplay: false,
-		  onSlideShow: show,		/* callback when Slide show event occurs */
-		 /* navigation: 'circles'	/*	/* circles | squares */
-	});
- 	
-	$('.jRCarouselGallery2').jRCarousel({
-		  width: 800,
-		  height: 640,
-		  autoplay: false,
-		  animation: 'fade',
-		  navigation: 'circles'
-	});
-	
-	function show(slide){
-		$('.imgSlide').text(slide.attr('src'))
-	}
-})
-</script>
-
- <div id="galleria" class="overlay">
-  <div class="popup">
-    <p><a href="http://opendatasicilia.it/" title="opendatasicilia.it #ODS2018" target="_blank">opendatasicilia.it</a> - Galleria foto Convengno Palazzo dei Normanni venerdi 09 novembre  </p>
-    <a class="close" href="#">&times;</a>
-    <div class="content">
-<div class="galcontainer">		<div>
-				<div class="jRCarouselGallery1"></div>
-		</div>
-</div>
-    </div>
-  </div>
-</div>   
-    
 </body>
 
 </html>

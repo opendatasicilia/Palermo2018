@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Galleria foto Convengno Palazzo dei Normanni venerdi 09 novembre </title>
+<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script> 
+<script type="text/javascript" src="jRCarousel.min.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+	//var slides = ['images/020.jpg','images/01.jpg','images/02.jpg','images/03.jpg','images/04.jpg']
+	var slides = [{src: 'conv_01.jpg'},
+				  {src: 'conv_02.jpg'},
+				  {src: 'conv_03.jpg'},
+				  {src: 'conv_04.jpg'},
+				  {src: 'conv_05.jpg'},
+				  {src: 'conv_06.jpg'},
+				  {src: 'conv_07.jpg'},
+				  {src: 'conv_08.jpg'},
+				  {src: 'conv_09.jpg'},
+				  {src: 'conv_10.jpg'},
+				  {src: 'conv_11.jpg'},
+				  {src: 'conv_12.jpg'},
+				  {src: 'conv_13.jpg'},
+				  {src: 'conv_14.jpg'},
+				  {src: 'conv_15.jpg'},
+				  {src: 'conv_16.jpg'},
+				  {src: 'conv_17.jpg'},
+				  {src: 'conv_18.jpg'},
+				  {src: 'conv_19.jpg'},
+				  {src: 'conv_20.jpg'},
+				  {src: 'conv_21.jpg'},
+				  {src: 'conv_22.jpg'},
+				  {src: 'conv_23.jpg'},
+				  {src: 'conv_24.jpg'},
+				  {src: 'conv_25.jpg'},
+				  {src: 'conv_26.jpg'},
+			  	  {src: 'conv_27.jpg'}];
+	
+	$('.jRCarouselGallery').jRCarousel({
+		  slides: slides
+	});
+	
+ 	$('.jRCarouselGallery1').jRCarousel({
+ 		  width: 800, 				/* largest allowed width */
+		  height: 640, 				/* largest allowed height */
+		  slides: slides, 			/* array of images source or gets slides by 'slide' class */
+		  slideLayout : 'contain',  /* "contain" (fit according to aspect ratio), "fill" (stretches object to fill) and "cover" (overflows box but maintains ratio) */
+		  animation: 'fade', 		/* slide | scroll | fade | zoomInSlide | zoomInScroll */
+		  animationSpeed: 400,
+		  animationInterval: 4000,
+		  autoplay: true,
+		  onSlideShow: show,		/* callback when Slide show event occurs */
+		  navigation: 'circles'		/* circles | squares */
+	});
+	
+	$('.jRCarouselGallery2').jRCarousel({
+		  width: 800,
+		  height: 356,
+		  autoplay: false,
+		  animation: 'fade',
+		  navigation: 'squares'
+	});
+	
+	function show(slide){
+		$('.imgSlide').text(slide.attr('src'))
+	}
+})
+</script>
+
+<style type="text/css">
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	margin: 0 auto;
+}
+h1,h2{
+	margin: 2px auto;
+}
+.galcontainer {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.jRCarouselGallery,.jRCarouselGallery1,.jRCarouselGallery2 {
+	margin: 5px auto; /* optional - if want to center align */
+}
+
+.galcontainer {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+	<div class="galcontainer">
+	<div><div class="jRCarouselGallery1"></div>	</div>
+	</body>
+</html>
