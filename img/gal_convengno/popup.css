@@ -7,6 +7,10 @@ h1 {
   margin: 80px 0;
 }
 
+.p1 {
+    margin: -3px 0 10px;
+}
+
 .box {
   width: 40%;
   margin: 0 auto;
