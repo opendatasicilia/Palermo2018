@@ -106,7 +106,7 @@ div.jumbotron div.social a {
 
 	/* loghi partners */
 
-	ul.loghi-partners li {
+	ul.loghi-partners li, ul.loghi-partners_01 li {
 	list-style:none;
 	display:inline-block;
 	margin:1rem;
@@ -114,6 +114,10 @@ div.jumbotron div.social a {
 
 ul.loghi-partners li img {
 max-height:50px;
+}
+
+ul.loghi-partners_01 li img {
+max-height:75px;
 }
 
 hr.gb {background-color: #fff; border: 3px solid #fff; border-radius: 7px 7px 7px 7px; height: 3px;}
