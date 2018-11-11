@@ -74,10 +74,21 @@ body #information {
 
 @media only screen and (max-width: 640px)  {#intro h3 { font-size:22px;}}
 
+.container .jumbotron {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .jumbotron {
 	background-color: #d9edf7;
-	min-height:576px;
+	min-height:485px;
+	padding:35px;
+	}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .bg-warning {
