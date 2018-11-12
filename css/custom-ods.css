@@ -74,10 +74,21 @@ body #information {
 
 @media only screen and (max-width: 640px)  {#intro h3 { font-size:22px;}}
 
+.container .jumbotron {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .jumbotron {
 	background-color: #d9edf7;
-	min-height:576px;
+	min-height:485px;
+	padding:35px;
+	}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .bg-warning {
@@ -122,6 +133,7 @@ max-height:75px;
 }
 
 hr.gb {background-color: #fff; border: 3px solid #fff; border-radius: 7px 7px 7px 7px; height: 3px;}
+hr.gb1 {background-color:  #d9edf7; border: 1px solid  #d9edf7; border-radius: 4px 4px 4px 4px; height: 1px;}
 .mappa {font-size: 12px}
 
 
